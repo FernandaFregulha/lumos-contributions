@@ -9,26 +9,26 @@ jobs:
   generate-lumos-grid:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # <--- Linha adicionada para permissão de escrita
+      contents: write # Permissão de escrita para o bot do GitHub Actions
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Python
+      - name: Set up Python environment
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install requests beautifulsoup4 lxml
 
-      - name: Run generator script
+      - name: Run Lumos SVG generator script
         run: python scripts/generate_lumos_svg.py
 
-      - name: Commit updated SVG
+      - name: Commit and push updated SVG
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
           git add assets/lumos_contributions.svg
-          git commit -m "✨ update lumos contributions SVG" || echo "No changes to commit"
+          git commit -m "Update Lumos contributions SVG" || echo "No changes to commit"
           git push
