@@ -1,0 +1,32 @@
+name: Update Lumos Contribution Grid ✨
+
+on:
+  schedule:
+    - cron: "0 3 * * *"  # roda todo dia às 3h UTC
+  workflow_dispatch:
+
+jobs:
+  generate-lumos-grid:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Run generator script
+        run: python scripts/generate_lumos_svg.py
+
+      - name: Commit updated SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/lumos_contributions.svg
+          git commit -m "✨ update lumos contributions SVG"
+          git push
