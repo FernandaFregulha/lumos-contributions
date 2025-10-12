@@ -120,8 +120,8 @@
     <rect x="169" y="13" width="10" height="10" class="day-0"/>
     <rect x="169" y="26" width="10" height="10" class="day-0"/>
     <rect x="169" y="39" width="10" height="10" class="day-0"/>
-    <rect x="169" y="52" width="10" height="10" class="day-0"/>
-    <rect x="169" y="65" width="10" height="10" class="day-4 glowing-rect"/>
+    <rect x="169" y="52" width="10" height="10" class="day-4 glowing-rect"/>
+    <rect x="169" y="65" width="10" height="10" class="day-0"/>
     <rect x="169" y="78" width="10" height="10" class="day-0"/>
     <rect x="182" y="0" width="10" height="10" class="day-0"/>
     <rect x="182" y="13" width="10" height="10" class="day-0"/>
@@ -281,11 +281,11 @@
     <rect x="468" y="13" width="10" height="10" class="day-0"/>
     <rect x="468" y="26" width="10" height="10" class="day-0"/>
     <rect x="468" y="39" width="10" height="10" class="day-0"/>
-    <rect x="468" y="52" width="10" height="10" class="day-0"/>
+    <rect x="468" y="52" width="10" height="10" class="day-4 glowing-rect"/>
     <rect x="468" y="65" width="10" height="10" class="day-0"/>
     <rect x="468" y="78" width="10" height="10" class="day-0"/>
     <rect x="481" y="0" width="10" height="10" class="day-0"/>
-    <rect x="481" y="13" width="10" height="10" class="day-4 glowing-rect"/>
+    <rect x="481" y="13" width="10" height="10" class="day-0"/>
     <rect x="481" y="26" width="10" height="10" class="day-0"/>
     <rect x="481" y="39" width="10" height="10" class="day-0"/>
     <rect x="481" y="52" width="10" height="10" class="day-0"/>
@@ -390,10 +390,4 @@
     <rect x="663" y="65" width="10" height="10" class="day-0"/>
     <rect x="663" y="78" width="10" height="10" class="day-0"/>
     <rect x="676" y="0" width="10" height="10" class="day-0"/>
-    <rect x="676" y="13" width="10" height="10" class="day-0"/>
-    <rect x="676" y="26" width="10" height="10" class="day-0"/>
-    <rect x="676" y="39" width="10" height="10" class="day-0"/>
-    <rect x="676" y="52" width="10" height="10" class="day-0"/>
-    <rect x="676" y="65" width="10" height="10" class="day-0"/>
-    <rect x="676" y="78" width="10" height="10" class="day-0"/>
 </svg>
