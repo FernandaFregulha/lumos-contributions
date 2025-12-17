@@ -274,8 +274,8 @@
     <rect x="455" y="13" width="10" height="10" class="day-0"/>
     <rect x="455" y="26" width="10" height="10" class="day-0"/>
     <rect x="455" y="39" width="10" height="10" class="day-0"/>
-    <rect x="455" y="52" width="10" height="10" class="day-4 glowing-rect"/>
-    <rect x="455" y="65" width="10" height="10" class="day-0"/>
+    <rect x="455" y="52" width="10" height="10" class="day-0"/>
+    <rect x="455" y="65" width="10" height="10" class="day-4 glowing-rect"/>
     <rect x="455" y="78" width="10" height="10" class="day-0"/>
     <rect x="468" y="0" width="10" height="10" class="day-0"/>
     <rect x="468" y="13" width="10" height="10" class="day-0"/>
@@ -392,4 +392,5 @@
     <rect x="676" y="0" width="10" height="10" class="day-0"/>
     <rect x="676" y="13" width="10" height="10" class="day-0"/>
     <rect x="676" y="26" width="10" height="10" class="day-0"/>
+    <rect x="676" y="39" width="10" height="10" class="day-0"/>
 </svg>
